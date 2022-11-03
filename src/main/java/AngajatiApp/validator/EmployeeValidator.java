@@ -14,12 +14,11 @@ public class EmployeeValidator {
 				&& isLastNameValid(employee) 
 				&& isCnpValid(employee) 
 				&& isFunctionValid(employee) 
-				&& isSalaryValid(employee)
-				&& isIDValid(employee);
+				&& isSalaryValid(employee);
 	}
 
 	private boolean isSalaryValid(Employee employee) {
-		return employee.getSalary() >= 1000;
+		return employee.getSalary() >= 1000d;
 	}
 
 	private boolean isFunctionValid(Employee employee) {
@@ -38,11 +37,11 @@ public class EmployeeValidator {
 		return employee.getLastName().matches("[a-zA-Z]+") && (employee.getLastName().length() > 2);
 	}
 
-	private boolean isIDValid(Employee employee) {
-		Pattern pattern = Pattern.compile(".[0-9]");
-		String id = String.valueOf(employee.getId());
-		return pattern.matcher(id).matches();
-	}
+//	public boolean isIDValid(Employee employee) {
+//		Pattern pattern = Pattern.compile(".[0-9]");
+//		String id = String.valueOf(employee.getId());
+//		return pattern.matcher(id).matches();
+//	}
 
 	private boolean isFirstNameValid(Employee employee) {
 		return employee.getFirstName().matches("[a-zA-Z]+") && (employee.getFirstName().length() > 2) && (employee.getFirstName().length() <= 15);

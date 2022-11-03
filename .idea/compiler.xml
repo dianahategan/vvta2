@@ -9,5 +9,8 @@
         <module name="Angajati" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Angajati" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

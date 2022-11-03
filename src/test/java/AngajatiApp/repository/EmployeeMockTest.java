@@ -2,6 +2,7 @@ package AngajatiApp.repository;
 
 import AngajatiApp.controller.DidacticFunction;
 import AngajatiApp.model.Employee;
+import AngajatiApp.validator.EmployeeValidator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -20,8 +21,8 @@ class EmployeeMockTest {
         employee.setLastName("Nume");
         employee.setFirstName("Prenume");
         employee.setCnp("1234567891234");
-        employee.setFunction(DidacticFunction.LECTURER);
-        employee.setSalary(Double.valueOf("1500"));
+        employee.setFunction(DidacticFunction.ASISTENT);
+        employee.setSalary(1500d);
 
 //        int nr_angajati = employeeRepository.getEmployeeList().size();
         boolean b = employeeRepository.addEmployee(employee);
@@ -40,7 +41,7 @@ class EmployeeMockTest {
         employee.setSalary(Double.valueOf("1500"));
 
         boolean b = employeeRepository.addEmployee(employee);
-        assertTrue(b);
+        assertFalse(b);
     }
 
 
