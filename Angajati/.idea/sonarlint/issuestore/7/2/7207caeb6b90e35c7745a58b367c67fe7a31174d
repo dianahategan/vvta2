@@ -1,0 +1,18 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾¶Ç
+c
+java:S1192"NDefine a constant instead of duplicating this literal "1234567890876" 6 times.(Ïç¸4
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¸4
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÕŒæûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÓ™¦ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€³¸ÿşÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Çœêûÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çäÿº
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©¦ºÒûÿÿÿÿ
+A
+java:S1168K"+Return an empty collection instead of null.(¥¹ï
+M
+java:S1135J"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+M
+java:S1135P"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
